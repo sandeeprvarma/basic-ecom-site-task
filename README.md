@@ -26,6 +26,11 @@ pass: testuser@1234
 php artisan db:seed --class=AddAdminCredentials
 ```
 
+To add fake products
+```
+php artisan db:seed --class=ProductsSeeder
+```
+
 ```
 php artisan serve
 ```
